@@ -3,7 +3,7 @@
  
 ///Conectamos a la DB
  session_start();
-$conexion = mysql_connect("localhost","root","");
+$conexion = mysql_connect("localhost","root","lalina");
 mysql_select_db("login", $conexion);
 
 if (!$conexion)
